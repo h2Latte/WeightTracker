@@ -1,0 +1,25 @@
+table {
+    border-collapse: collapse;
+    border: 1pt solid #fafafa;
+    width: 100%;
+}
+
+tr {
+    border-bottom: 1pt solid #e7e7e7;
+    height: 80px;
+}
+
+tr:first-of-type {
+    background-color: #fafafa;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+td {
+    text-align: center;
+}
+
+caption {
+    caption-side: top;
+    padding: 1rem;
+    font-size: 1.2rem;
+}
